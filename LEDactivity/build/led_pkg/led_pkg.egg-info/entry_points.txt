@@ -1,0 +1,3 @@
+[console_scripts]
+battery = led_pkg.battery:main
+led_panel = led_pkg.led_panel:main

@@ -1,0 +1,37 @@
+[1.776s] Invoking command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/src/turtlesim_pkg': PYTHONPATH=/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_pkg build --build-base /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/build install --record /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/install.log --single-version-externally-managed install_data
+[2.332s] running egg_info
+[2.333s] creating ../../build/turtlesim_pkg/turtlesim_pkg.egg-info
+[2.377s] writing ../../build/turtlesim_pkg/turtlesim_pkg.egg-info/PKG-INFO
+[2.378s] writing dependency_links to ../../build/turtlesim_pkg/turtlesim_pkg.egg-info/dependency_links.txt
+[2.378s] writing entry points to ../../build/turtlesim_pkg/turtlesim_pkg.egg-info/entry_points.txt
+[2.379s] writing requirements to ../../build/turtlesim_pkg/turtlesim_pkg.egg-info/requires.txt
+[2.379s] writing top-level names to ../../build/turtlesim_pkg/turtlesim_pkg.egg-info/top_level.txt
+[2.379s] writing manifest file '../../build/turtlesim_pkg/turtlesim_pkg.egg-info/SOURCES.txt'
+[2.462s] reading manifest file '../../build/turtlesim_pkg/turtlesim_pkg.egg-info/SOURCES.txt'
+[2.463s] writing manifest file '../../build/turtlesim_pkg/turtlesim_pkg.egg-info/SOURCES.txt'
+[2.464s] running build
+[2.464s] running build_py
+[2.465s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/build
+[2.465s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/build/lib
+[2.466s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/build/lib/turtlesim_pkg
+[2.466s] copying turtlesim_pkg/turtle_move.py -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/build/lib/turtlesim_pkg
+[2.466s] copying turtlesim_pkg/__init__.py -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/build/lib/turtlesim_pkg
+[2.467s] running install
+[2.478s] running install_lib
+[2.517s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages/turtlesim_pkg
+[2.518s] copying /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/build/lib/turtlesim_pkg/turtle_move.py -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages/turtlesim_pkg
+[2.518s] copying /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/build/lib/turtlesim_pkg/__init__.py -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages/turtlesim_pkg
+[2.519s] byte-compiling /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages/turtlesim_pkg/turtle_move.py to turtle_move.cpython-312.pyc
+[2.522s] byte-compiling /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages/turtlesim_pkg/__init__.py to __init__.cpython-312.pyc
+[2.522s] running install_data
+[2.522s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index
+[2.523s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index/resource_index
+[2.523s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index/resource_index/packages
+[2.524s] copying resource/turtlesim_pkg -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index/resource_index/packages
+[2.524s] copying package.xml -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/turtlesim_pkg
+[2.525s] running install_egg_info
+[2.571s] Copying ../../build/turtlesim_pkg/turtlesim_pkg.egg-info to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages/turtlesim_pkg-0.0.0-py3.12.egg-info
+[2.574s] running install_scripts
+[2.847s] Installing turtle_move script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/turtlesim_pkg
+[2.848s] writing list of installed files to '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/install.log'
+[2.892s] Invoked command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/src/turtlesim_pkg' returned '0': PYTHONPATH=/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_pkg build --build-base /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/build install --record /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/install.log --single-version-externally-managed install_data

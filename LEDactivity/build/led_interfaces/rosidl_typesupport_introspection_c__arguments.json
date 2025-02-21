@@ -1,0 +1,29 @@
+{
+  "package_name": "led_interfaces",
+  "output_dir": "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces/rosidl_typesupport_introspection_c/led_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces/rosidl_adapter/led_interfaces:msg/LedPanelState.idl",
+    "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces/rosidl_adapter/led_interfaces:srv/SetLED.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces/rosidl_adapter/led_interfaces/msg/LedPanelState.idl",
+    "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces/rosidl_adapter/led_interfaces/srv/SetLED.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

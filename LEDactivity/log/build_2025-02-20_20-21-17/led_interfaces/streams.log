@@ -1,0 +1,230 @@
+[0.014s] Invoking command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/opt/ros/jazzy /usr/bin/cmake /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/src/led_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces
+[0.276s] -- The C compiler identification is GNU 13.3.0
+[1.066s] -- The CXX compiler identification is GNU 13.3.0
+[1.799s] -- Detecting C compiler ABI info
+[2.107s] -- Detecting C compiler ABI info - done
+[2.114s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.115s] -- Detecting C compile features
+[2.116s] -- Detecting C compile features - done
+[2.248s] -- Detecting CXX compiler ABI info
+[2.548s] -- Detecting CXX compiler ABI info - done
+[2.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.556s] -- Detecting CXX compile features
+[2.556s] -- Detecting CXX compile features - done
+[2.567s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.706s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.784s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.830s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.839s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.070s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.124s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.666s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.020s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.507s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.617s] -- Found PythonExtra: /usr/bin/python3  
+[5.037s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.083s] -- Configuring done (5.0s)
+[5.132s] -- Generating done (0.0s)
+[5.142s] -- Build files have been written to: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces
+[5.151s] Invoked command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/opt/ros/jazzy /usr/bin/cmake /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/src/led_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces
+[5.152s] Invoking command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces -- -j16 -l16
+[5.192s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.199s] [  2%] Built target ament_cmake_python_symlink_led_interfaces
+[5.379s] [  2%] Built target led_interfaces__rosidl_generator_type_description
+[5.387s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.396s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.408s] running egg_info
+[5.409s] creating led_interfaces.egg-info
+[5.427s] writing led_interfaces.egg-info/PKG-INFO
+[5.427s] writing dependency_links to led_interfaces.egg-info/dependency_links.txt
+[5.427s] writing top-level names to led_interfaces.egg-info/top_level.txt
+[5.428s] writing manifest file 'led_interfaces.egg-info/SOURCES.txt'
+[5.483s] reading manifest file 'led_interfaces.egg-info/SOURCES.txt'
+[5.483s] writing manifest file 'led_interfaces.egg-info/SOURCES.txt'
+[5.506s] [  6%] Built target ament_cmake_python_build_led_interfaces_egg
+[5.660s] [  6%] Built target led_interfaces__cpp
+[5.681s] [ 20%] [32mBuilding C object CMakeFiles/led_interfaces__rosidl_generator_c.dir/rosidl_generator_c/led_interfaces/msg/detail/led_panel_state__functions.c.o[0m
+[5.681s] [ 20%] [32mBuilding C object CMakeFiles/led_interfaces__rosidl_generator_c.dir/rosidl_generator_c/led_interfaces/msg/detail/led_panel_state__type_support.c.o[0m
+[5.681s] [ 20%] [32mBuilding C object CMakeFiles/led_interfaces__rosidl_generator_c.dir/rosidl_generator_c/led_interfaces/srv/detail/set_led__functions.c.o[0m
+[5.681s] [ 20%] [32mBuilding C object CMakeFiles/led_interfaces__rosidl_generator_c.dir/rosidl_generator_c/led_interfaces/srv/detail/set_led__description.c.o[0m
+[5.681s] [ 20%] [32mBuilding C object CMakeFiles/led_interfaces__rosidl_generator_c.dir/rosidl_generator_c/led_interfaces/msg/detail/led_panel_state__description.c.o[0m
+[5.681s] [ 20%] [32mBuilding C object CMakeFiles/led_interfaces__rosidl_generator_c.dir/rosidl_generator_c/led_interfaces/srv/detail/set_led__type_support.c.o[0m
+[5.756s] [ 22%] [32m[1mLinking C shared library libled_interfaces__rosidl_generator_c.so[0m
+[5.902s] [ 22%] Built target led_interfaces__rosidl_generator_c
+[5.911s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.911s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.911s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.911s] [ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.911s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.911s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.135s] [ 40%] [32mBuilding CXX object CMakeFiles/led_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/led_interfaces/srv/set_led__type_support.cpp.o[0m
+[6.135s] [ 40%] [32mBuilding CXX object CMakeFiles/led_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/led_interfaces/msg/led_panel_state__type_support.cpp.o[0m
+[6.156s] [ 45%] [32mBuilding C object CMakeFiles/led_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/led_interfaces/srv/detail/set_led__type_support.c.o[0m
+[6.156s] [ 45%] [32mBuilding C object CMakeFiles/led_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/led_interfaces/msg/detail/led_panel_state__type_support.c.o[0m
+[6.166s] [ 50%] [32mBuilding CXX object CMakeFiles/led_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/led_interfaces/msg/detail/led_panel_state__type_support.cpp.o[0m
+[6.166s] [ 50%] [32mBuilding CXX object CMakeFiles/led_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/led_interfaces/srv/detail/set_led__type_support.cpp.o[0m
+[6.184s] [ 52%] [32mBuilding CXX object CMakeFiles/led_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/led_interfaces/srv/set_led__type_support.cpp.o[0m
+[6.184s] [ 54%] [32mBuilding CXX object CMakeFiles/led_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/led_interfaces/msg/led_panel_state__type_support.cpp.o[0m
+[6.188s] [ 56%] [32m[1mLinking CXX shared library libled_interfaces__rosidl_typesupport_c.so[0m
+[6.209s] [ 59%] [32m[1mLinking C shared library libled_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.240s] [ 61%] [32mBuilding CXX object CMakeFiles/led_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/led_interfaces/srv/detail/set_led__type_support_c.cpp.o[0m
+[6.241s] [ 63%] [32mBuilding CXX object CMakeFiles/led_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/led_interfaces/msg/detail/led_panel_state__type_support_c.cpp.o[0m
+[6.241s] [ 65%] [32mBuilding CXX object CMakeFiles/led_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/led_interfaces/msg/detail/dds_fastrtps/led_panel_state__type_support.cpp.o[0m
+[6.241s] [ 68%] [32mBuilding CXX object CMakeFiles/led_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/led_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o[0m
+[6.393s] [ 68%] Built target led_interfaces__rosidl_typesupport_c
+[6.409s] [ 68%] Built target led_interfaces__rosidl_typesupport_introspection_c
+[6.649s] [ 70%] [32m[1mLinking CXX shared library libled_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.664s] [ 72%] [32m[1mLinking CXX shared library libled_interfaces__rosidl_typesupport_cpp.so[0m
+[6.815s] [ 75%] [32m[1mLinking CXX shared library libled_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.858s] [ 75%] Built target led_interfaces__rosidl_typesupport_introspection_cpp
+[6.869s] [ 75%] Built target led_interfaces__rosidl_typesupport_cpp
+[6.915s] [ 77%] [32m[1mLinking CXX shared library libled_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.978s] [ 77%] Built target led_interfaces__rosidl_typesupport_fastrtps_c
+[7.089s] [ 77%] Built target led_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.105s] [ 77%] Built target led_interfaces
+[7.121s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.450s] [ 79%] Built target led_interfaces__py
+[7.468s] [ 84%] [32mBuilding C object CMakeFiles/led_interfaces__rosidl_generator_py.dir/rosidl_generator_py/led_interfaces/srv/_set_led_s.c.o[0m
+[7.468s] [ 84%] [32mBuilding C object CMakeFiles/led_interfaces__rosidl_generator_py.dir/rosidl_generator_py/led_interfaces/msg/_led_panel_state_s.c.o[0m
+[7.624s] [ 86%] [32m[1mLinking C shared library libled_interfaces__rosidl_generator_py.so[0m
+[7.774s] [ 86%] Built target led_interfaces__rosidl_generator_py
+[7.790s] [ 93%] [32mBuilding C object CMakeFiles/led_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/led_interfaces/_led_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.791s] [ 93%] [32mBuilding C object CMakeFiles/led_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/led_interfaces/_led_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.791s] [ 93%] [32mBuilding C object CMakeFiles/led_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/led_interfaces/_led_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.878s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/led_interfaces/led_interfaces_s__rosidl_typesupport_c.so[0m
+[7.880s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/led_interfaces/led_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[7.880s] [100%] [32m[1mLinking C shared module rosidl_generator_py/led_interfaces/led_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.981s] [100%] Built target led_interfaces_s__rosidl_typesupport_c
+[7.982s] [100%] Built target led_interfaces_s__rosidl_typesupport_introspection_c
+[7.982s] [100%] Built target led_interfaces_s__rosidl_typesupport_fastrtps_c
+[7.992s] Invoked command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces -- -j16 -l16
+[8.000s] Invoking command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces
+[8.007s] -- Install configuration: ""
+[8.007s] -- Execute custom install script
+[8.008s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/ament_index/resource_index/rosidl_interfaces/led_interfaces
+[8.016s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/msg/LedPanelState.json
+[8.024s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/srv/SetLED.json
+[8.033s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/detail/led_panel_state__functions.h
+[8.042s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/detail/led_panel_state__struct.h
+[8.050s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/detail/led_panel_state__type_support.h
+[8.058s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/led_panel_state.h
+[8.065s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.074s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/detail/set_led__functions.h
+[8.081s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/detail/set_led__struct.h
+[8.090s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/detail/set_led__type_support.h
+[8.098s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/set_led.h
+[8.107s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/environment/library_path.sh
+[8.115s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/environment/library_path.dsv
+[8.123s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/detail/led_panel_state__rosidl_typesupport_fastrtps_c.h
+[8.130s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.136s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h
+[8.144s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/detail/led_panel_state__rosidl_typesupport_introspection_c.h
+[8.151s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.157s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h
+[8.165s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/detail/led_panel_state__builder.hpp
+[8.172s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/detail/led_panel_state__struct.hpp
+[8.180s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/detail/led_panel_state__traits.hpp
+[8.187s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/detail/led_panel_state__type_support.hpp
+[8.194s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/led_panel_state.hpp
+[8.202s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.209s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/detail/set_led__builder.hpp
+[8.216s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/detail/set_led__struct.hpp
+[8.223s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/detail/set_led__traits.hpp
+[8.231s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/detail/set_led__type_support.hpp
+[8.238s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/set_led.hpp
+[8.245s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/detail/led_panel_state__rosidl_typesupport_fastrtps_cpp.hpp
+[8.252s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.261s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp
+[8.268s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/msg/detail/led_panel_state__rosidl_typesupport_introspection_cpp.hpp
+[8.275s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/include/led_interfaces/led_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp
+[8.281s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/environment/pythonpath.sh
+[8.288s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/environment/pythonpath.dsv
+[8.296s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[8.303s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[8.310s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[8.317s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[8.324s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/__init__.py
+[8.331s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/_led_interfaces_s.ep.rosidl_typesupport_c.c
+[8.338s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/_led_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.345s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/_led_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.352s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/led_interfaces_s__rosidl_typesupport_c.so
+[8.359s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/led_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[8.366s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/led_interfaces_s__rosidl_typesupport_introspection_c.so
+[8.374s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/msg/__init__.py
+[8.381s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/msg/_led_panel_state.py
+[8.388s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/msg/_led_panel_state_s.c
+[8.396s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/srv/__init__.py
+[8.404s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/srv/_set_led.py
+[8.411s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/srv/_set_led_s.c
+[8.418s] -- Up-to-date symlink: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/led_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[8.418s] -- Up-to-date symlink: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/led_interfaces_s__rosidl_typesupport_introspection_c.so
+[8.419s] -- Up-to-date symlink: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/led_interfaces_s__rosidl_typesupport_c.so
+[8.419s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/msg/LedPanelState.idl
+[8.427s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/srv/SetLED.idl
+[8.434s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/msg/LedPanelState.msg
+[8.440s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/srv/SetLED.srv
+[8.448s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/ament_index/resource_index/package_run_dependencies/led_interfaces
+[8.455s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/ament_index/resource_index/parent_prefix_path/led_interfaces
+[8.462s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/environment/ament_prefix_path.sh
+[8.470s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/environment/ament_prefix_path.dsv
+[8.478s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/environment/path.sh
+[8.486s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/environment/path.dsv
+[8.494s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/local_setup.bash
+[8.501s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/local_setup.sh
+[8.509s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/local_setup.zsh
+[8.516s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/local_setup.dsv
+[8.524s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/package.dsv
+[8.532s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/ament_index/resource_index/packages/led_interfaces
+[8.539s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.546s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.554s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.562s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.569s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.577s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.584s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.591s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/led_interfacesConfig.cmake
+[8.598s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/led_interfacesConfig-version.cmake
+[8.605s] -- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/package.xml
+[8.612s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_generator_c.so
+[8.612s] -- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_generator_c.so" to ""
+[8.612s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.613s] -- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.613s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_introspection_c.so
+[8.613s] -- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.613s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_c.so
+[8.614s] -- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_c.so" to ""
+[8.614s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.614s] -- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.614s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.615s] -- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.615s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_cpp.so
+[8.615s] -- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.652s] Listing '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces'...
+[8.652s] Compiling '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/__init__.py'...
+[8.652s] Listing '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/msg'...
+[8.652s] Compiling '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/msg/__init__.py'...
+[8.652s] Compiling '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/msg/_led_panel_state.py'...
+[8.652s] Listing '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/srv'...
+[8.652s] Compiling '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/srv/__init__.py'...
+[8.652s] Compiling '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages/led_interfaces/srv/_set_led.py'...
+[8.656s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_generator_py.so
+[8.657s] -- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/libled_interfaces__rosidl_generator_py.so" to ""
+[8.657s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/export_led_interfaces__rosidl_generator_cExport.cmake
+[8.657s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/export_led_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.658s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/export_led_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.658s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/export_led_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.658s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/led_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.658s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/led_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.658s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/led_interfaces__rosidl_typesupport_cExport.cmake
+[8.658s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/led_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.659s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/export_led_interfaces__rosidl_generator_cppExport.cmake
+[8.659s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/export_led_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.659s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/export_led_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.659s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/led_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.659s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/led_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.659s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/led_interfaces__rosidl_typesupport_cppExport.cmake
+[8.660s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/led_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.660s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/export_led_interfaces__rosidl_generator_pyExport.cmake
+[8.660s] -- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/share/led_interfaces/cmake/export_led_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.663s] Invoked command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces

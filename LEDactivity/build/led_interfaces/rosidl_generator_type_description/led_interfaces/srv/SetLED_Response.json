@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "led_interfaces/srv/SetLED_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "led_interfaces/srv/SetLED_Response",
+      "hash_string": "RIHS01_b0a68ce4b6bd1c53dc0c1a2b5d79034ad2a0443e5e5dc09f5e47e9ba4fc5c6e4"
+    }
+  ]
+}

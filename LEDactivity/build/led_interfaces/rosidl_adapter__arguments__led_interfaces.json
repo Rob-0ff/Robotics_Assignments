@@ -1,0 +1,7 @@
+{
+  "package_name": "led_interfaces",
+  "non_idl_tuples": [
+    "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/src/led_interfaces:msg/LedPanelState.msg",
+    "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/src/led_interfaces:srv/SetLED.srv"
+  ]
+}

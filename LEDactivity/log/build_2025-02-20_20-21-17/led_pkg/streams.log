@@ -1,0 +1,24 @@
+[1.346s] Invoking command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg': PYTHONPATH=/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg/build --no-deps symlink_data
+[1.649s] running develop
+[1.800s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[1.800s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.835s] running egg_info
+[1.835s] creating led_pkg.egg-info
+[1.852s] writing led_pkg.egg-info/PKG-INFO
+[1.852s] writing dependency_links to led_pkg.egg-info/dependency_links.txt
+[1.853s] writing requirements to led_pkg.egg-info/requires.txt
+[1.853s] writing top-level names to led_pkg.egg-info/top_level.txt
+[1.853s] writing manifest file 'led_pkg.egg-info/SOURCES.txt'
+[1.890s] reading manifest file 'led_pkg.egg-info/SOURCES.txt'
+[1.890s] writing manifest file 'led_pkg.egg-info/SOURCES.txt'
+[1.909s] running build_ext
+[1.909s] Creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/lib/python3.12/site-packages/led-pkg.egg-link (link to .)
+[1.910s] 
+[1.910s] Installed /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg
+[1.910s] running symlink_data
+[1.910s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/share/ament_index
+[1.911s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/share/ament_index/resource_index
+[1.911s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/share/ament_index/resource_index/packages
+[1.911s] symbolically linking /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg/resource/led_pkg -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/share/ament_index/resource_index/packages
+[1.911s] symbolically linking /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg/package.xml -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/share/led_pkg
+[1.948s] Invoked command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg' returned '0': PYTHONPATH=/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg/build --no-deps symlink_data

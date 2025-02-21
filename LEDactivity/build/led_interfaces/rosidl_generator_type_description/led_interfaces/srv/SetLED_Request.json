@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "led_interfaces/srv/SetLED_Request",
+      "fields": [
+        {
+          "name": "led_number",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "state",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "led_interfaces/srv/SetLED_Request",
+      "hash_string": "RIHS01_f27340758eb57f7e6ef46799ae63af2815e071e59fa6ad1da8e3a5b0db41cbaf"
+    }
+  ]
+}

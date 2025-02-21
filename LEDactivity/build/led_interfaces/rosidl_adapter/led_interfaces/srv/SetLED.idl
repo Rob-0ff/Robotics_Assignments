@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from led_interfaces/srv/SetLED.srv
+// generated code does not contain a copyright notice
+
+
+module led_interfaces {
+  module srv {
+    struct SetLED_Request {
+      int64 led_number;
+
+      boolean state;
+    };
+    struct SetLED_Response {
+      boolean success;
+    };
+  };
+};

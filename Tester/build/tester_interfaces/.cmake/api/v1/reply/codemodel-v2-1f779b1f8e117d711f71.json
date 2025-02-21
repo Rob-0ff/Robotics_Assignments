@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-575d8129622bb8d6b361.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "tester_interfaces__py",
+					"jsonFile" : "directory-tester_interfaces__py-1eb691bd4fd671b3be81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces/tester_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "tester_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tester_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tester_interfaces_egg-3fbca79983d37b5363de.json",
+					"name" : "ament_cmake_python_build_tester_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_tester_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_tester_interfaces-c8832e719395c3dbc3b0.json",
+					"name" : "ament_cmake_python_symlink_tester_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces-b3db1cc90ef80505abe9.json",
+					"name" : "tester_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces__cpp-2390c4195b5d76ad2b82.json",
+					"name" : "tester_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tester_interfaces__py::@c0e491358745ec0a8146",
+					"jsonFile" : "target-tester_interfaces__py-958144d5c20db9283d45.json",
+					"name" : "tester_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces__rosidl_generator_c-a54447f6e7a1c2606e3b.json",
+					"name" : "tester_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces__rosidl_generator_py-d1c29b916987e329d1e2.json",
+					"name" : "tester_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces__rosidl_generator_type_description-8bba3a5235088337408e.json",
+					"name" : "tester_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces__rosidl_typesupport_c-c02a7a4115897fcde364.json",
+					"name" : "tester_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces__rosidl_typesupport_cpp-75120a6e0162bc5c383a.json",
+					"name" : "tester_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces__rosidl_typesupport_fastrtps_c-8bb99ab08151010f70be.json",
+					"name" : "tester_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces__rosidl_typesupport_fastrtps_cpp-b699b6b31bc6158e7b8b.json",
+					"name" : "tester_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces__rosidl_typesupport_introspection_c-400e3e9bb95ee6c522fd.json",
+					"name" : "tester_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces__rosidl_typesupport_introspection_cpp-812fd0a15229c7d1507e.json",
+					"name" : "tester_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces_s__rosidl_typesupport_c-b25bc0a3120fca96a8ef.json",
+					"name" : "tester_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces_s__rosidl_typesupport_fastrtps_c-d0a2e1ea608f38e928ad.json",
+					"name" : "tester_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces_s__rosidl_typesupport_introspection_c-51a6b90c9f49fad5c48b.json",
+					"name" : "tester_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester_interfaces_uninstall-064b2517135887d8a1b7.json",
+					"name" : "tester_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4344ca3040d35dc118a8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces",
+		"source" : "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/src/tester_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces/rosidl_generator_py/tester_interfaces/tester_interfaces_s__rosidl_typesupport_c.so" "TARGETS" "tester_interfaces_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/tester_interfaces")

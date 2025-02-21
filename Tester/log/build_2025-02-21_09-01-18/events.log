@@ -1,0 +1,501 @@
+[0.000000] (-) TimerEvent: {}
+[0.000383] (tester_interfaces) JobQueued: {'identifier': 'tester_interfaces', 'dependencies': OrderedDict()}
+[0.000849] (tester_pkg) JobQueued: {'identifier': 'tester_pkg', 'dependencies': OrderedDict({'tester_interfaces': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces'})}
+[0.000975] (tester_interfaces) JobStarted: {'identifier': 'tester_interfaces'}
+[0.019857] (tester_interfaces) JobProgress: {'identifier': 'tester_interfaces', 'progress': 'cmake'}
+[0.023193] (tester_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/src/tester_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces'], 'cwd': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roboff', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/roboff', 'OLDPWD': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roboff', 'NAME': 'LAPTOP-UBRJU7HF', 'WSL_INTEROP': '/run/WSL/356_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/robof/Documents/Varsity Work/COS326/MongoDB/mongosh-2.0.1-win32-x64/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/robof/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/robof/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/robof/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/robof/AppData/Local/GitHubDesktop/bin:/mnt/c/src/flutter/bin:/mnt/c/texlive/2023/bin/windows:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Users/robof/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/robof/AppData/Roaming/npm:/mnt/c/Users/robof/AppData/Local/gitkraken/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.097498] (-) TimerEvent: {}
+[0.198053] (-) TimerEvent: {}
+[0.298642] (-) TimerEvent: {}
+[0.399191] (-) TimerEvent: {}
+[0.499709] (-) TimerEvent: {}
+[0.600396] (-) TimerEvent: {}
+[0.670802] (tester_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.700604] (-) TimerEvent: {}
+[0.801201] (-) TimerEvent: {}
+[0.901765] (-) TimerEvent: {}
+[1.002226] (-) TimerEvent: {}
+[1.102851] (-) TimerEvent: {}
+[1.203454] (-) TimerEvent: {}
+[1.304041] (-) TimerEvent: {}
+[1.404593] (-) TimerEvent: {}
+[1.505126] (-) TimerEvent: {}
+[1.605622] (-) TimerEvent: {}
+[1.706204] (-) TimerEvent: {}
+[1.806860] (-) TimerEvent: {}
+[1.907433] (-) TimerEvent: {}
+[2.007958] (-) TimerEvent: {}
+[2.108474] (-) TimerEvent: {}
+[2.209038] (-) TimerEvent: {}
+[2.309578] (-) TimerEvent: {}
+[2.410108] (-) TimerEvent: {}
+[2.510639] (-) TimerEvent: {}
+[2.611167] (-) TimerEvent: {}
+[2.711801] (-) TimerEvent: {}
+[2.812270] (-) TimerEvent: {}
+[2.912841] (-) TimerEvent: {}
+[2.971382] (tester_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.013064] (-) TimerEvent: {}
+[3.113720] (-) TimerEvent: {}
+[3.214252] (-) TimerEvent: {}
+[3.314729] (-) TimerEvent: {}
+[3.415241] (-) TimerEvent: {}
+[3.515727] (-) TimerEvent: {}
+[3.616237] (-) TimerEvent: {}
+[3.716739] (-) TimerEvent: {}
+[3.817258] (-) TimerEvent: {}
+[3.918123] (-) TimerEvent: {}
+[4.018701] (-) TimerEvent: {}
+[4.119368] (-) TimerEvent: {}
+[4.219892] (-) TimerEvent: {}
+[4.320461] (-) TimerEvent: {}
+[4.421115] (-) TimerEvent: {}
+[4.521599] (-) TimerEvent: {}
+[4.622082] (-) TimerEvent: {}
+[4.722653] (-) TimerEvent: {}
+[4.823336] (-) TimerEvent: {}
+[4.923988] (-) TimerEvent: {}
+[5.024609] (-) TimerEvent: {}
+[5.125210] (-) TimerEvent: {}
+[5.219715] (tester_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.225511] (-) TimerEvent: {}
+[5.325967] (-) TimerEvent: {}
+[5.426490] (-) TimerEvent: {}
+[5.526980] (-) TimerEvent: {}
+[5.627537] (-) TimerEvent: {}
+[5.728006] (-) TimerEvent: {}
+[5.828566] (-) TimerEvent: {}
+[5.929065] (-) TimerEvent: {}
+[5.977930] (tester_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.996103] (tester_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.999093] (tester_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.000010] (tester_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.029211] (-) TimerEvent: {}
+[6.129712] (-) TimerEvent: {}
+[6.230238] (-) TimerEvent: {}
+[6.330821] (-) TimerEvent: {}
+[6.396224] (tester_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.430965] (-) TimerEvent: {}
+[6.531608] (-) TimerEvent: {}
+[6.632214] (-) TimerEvent: {}
+[6.732701] (-) TimerEvent: {}
+[6.833288] (-) TimerEvent: {}
+[6.933839] (-) TimerEvent: {}
+[7.034431] (-) TimerEvent: {}
+[7.134908] (-) TimerEvent: {}
+[7.213499] (tester_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.235128] (-) TimerEvent: {}
+[7.239381] (tester_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.240002] (tester_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.241168] (tester_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.256970] (tester_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[7.335385] (-) TimerEvent: {}
+[7.435913] (-) TimerEvent: {}
+[7.536406] (-) TimerEvent: {}
+[7.550818] (tester_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.636634] (-) TimerEvent: {}
+[7.687889] (tester_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.736801] (-) TimerEvent: {}
+[7.755108] (tester_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[7.767306] (tester_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.836992] (-) TimerEvent: {}
+[7.937590] (-) TimerEvent: {}
+[8.038250] (-) TimerEvent: {}
+[8.138831] (-) TimerEvent: {}
+[8.239347] (-) TimerEvent: {}
+[8.336678] (tester_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.339533] (-) TimerEvent: {}
+[8.431573] (tester_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[8.439683] (-) TimerEvent: {}
+[8.540282] (-) TimerEvent: {}
+[8.640768] (-) TimerEvent: {}
+[8.741291] (-) TimerEvent: {}
+[8.841820] (-) TimerEvent: {}
+[8.942451] (-) TimerEvent: {}
+[9.043272] (-) TimerEvent: {}
+[9.143803] (-) TimerEvent: {}
+[9.244322] (-) TimerEvent: {}
+[9.344840] (-) TimerEvent: {}
+[9.445312] (-) TimerEvent: {}
+[9.545872] (-) TimerEvent: {}
+[9.571939] (tester_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[9.646110] (-) TimerEvent: {}
+[9.746628] (-) TimerEvent: {}
+[9.847084] (-) TimerEvent: {}
+[9.947581] (-) TimerEvent: {}
+[10.048065] (-) TimerEvent: {}
+[10.148617] (-) TimerEvent: {}
+[10.249130] (-) TimerEvent: {}
+[10.349650] (-) TimerEvent: {}
+[10.428095] (tester_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.449874] (-) TimerEvent: {}
+[10.550591] (-) TimerEvent: {}
+[10.651140] (-) TimerEvent: {}
+[10.751747] (-) TimerEvent: {}
+[10.852251] (-) TimerEvent: {}
+[10.952876] (-) TimerEvent: {}
+[11.053392] (-) TimerEvent: {}
+[11.153949] (-) TimerEvent: {}
+[11.254452] (-) TimerEvent: {}
+[11.354933] (-) TimerEvent: {}
+[11.455557] (-) TimerEvent: {}
+[11.556075] (-) TimerEvent: {}
+[11.576024] (tester_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.581879] (tester_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[11.656307] (-) TimerEvent: {}
+[11.756813] (-) TimerEvent: {}
+[11.857370] (-) TimerEvent: {}
+[11.877426] (tester_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[11.957598] (-) TimerEvent: {}
+[12.058161] (-) TimerEvent: {}
+[12.158786] (-) TimerEvent: {}
+[12.259278] (-) TimerEvent: {}
+[12.360045] (-) TimerEvent: {}
+[12.461116] (-) TimerEvent: {}
+[12.561686] (-) TimerEvent: {}
+[12.662213] (-) TimerEvent: {}
+[12.762867] (-) TimerEvent: {}
+[12.819031] (tester_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[12.863073] (-) TimerEvent: {}
+[12.903697] (tester_interfaces) StdoutLine: {'line': b'-- Configuring done (12.9s)\n'}
+[12.963289] (-) TimerEvent: {}
+[12.995307] (tester_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[13.015789] (tester_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces\n'}
+[13.029035] (tester_interfaces) CommandEnded: {'returncode': 0}
+[13.030428] (tester_interfaces) JobProgress: {'identifier': 'tester_interfaces', 'progress': 'build'}
+[13.032245] (tester_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roboff', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/roboff', 'OLDPWD': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roboff', 'NAME': 'LAPTOP-UBRJU7HF', 'WSL_INTEROP': '/run/WSL/356_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/robof/Documents/Varsity Work/COS326/MongoDB/mongosh-2.0.1-win32-x64/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/robof/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/robof/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/robof/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/robof/AppData/Local/GitHubDesktop/bin:/mnt/c/src/flutter/bin:/mnt/c/texlive/2023/bin/windows:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Users/robof/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/robof/AppData/Roaming/npm:/mnt/c/Users/robof/AppData/Local/gitkraken/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[13.063517] (-) TimerEvent: {}
+[13.119903] (tester_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[13.133882] (tester_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_tester_interfaces\n'}
+[13.163811] (-) TimerEvent: {}
+[13.264403] (-) TimerEvent: {}
+[13.364889] (-) TimerEvent: {}
+[13.465404] (-) TimerEvent: {}
+[13.544579] (tester_interfaces) StdoutLine: {'line': b'[  2%] Built target tester_interfaces__rosidl_generator_type_description\n'}
+[13.565599] (-) TimerEvent: {}
+[13.567435] (tester_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.586007] (tester_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[13.633917] (tester_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[13.636322] (tester_interfaces) StdoutLine: {'line': b'creating tester_interfaces.egg-info\n'}
+[13.665778] (-) TimerEvent: {}
+[13.685972] (tester_interfaces) StdoutLine: {'line': b'writing tester_interfaces.egg-info/PKG-INFO\n'}
+[13.686401] (tester_interfaces) StdoutLine: {'line': b'writing dependency_links to tester_interfaces.egg-info/dependency_links.txt\n'}
+[13.687112] (tester_interfaces) StdoutLine: {'line': b'writing top-level names to tester_interfaces.egg-info/top_level.txt\n'}
+[13.687499] (tester_interfaces) StdoutLine: {'line': b"writing manifest file 'tester_interfaces.egg-info/SOURCES.txt'\n"}
+[13.766010] (-) TimerEvent: {}
+[13.866782] (-) TimerEvent: {}
+[13.889354] (tester_interfaces) StdoutLine: {'line': b"reading manifest file 'tester_interfaces.egg-info/SOURCES.txt'\n"}
+[13.891374] (tester_interfaces) StdoutLine: {'line': b"writing manifest file 'tester_interfaces.egg-info/SOURCES.txt'\n"}
+[13.967126] (-) TimerEvent: {}
+[13.979737] (tester_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_tester_interfaces_egg\n'}
+[14.067277] (-) TimerEvent: {}
+[14.167818] (-) TimerEvent: {}
+[14.224193] (tester_interfaces) StdoutLine: {'line': b'[  8%] Built target tester_interfaces__cpp\n'}
+[14.249669] (tester_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tester_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tester_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[14.250113] (tester_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tester_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tester_interfaces/msg/detail/hardware_status__description.c.o\x1b[0m\n'}
+[14.250373] (tester_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tester_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tester_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[14.268046] (-) TimerEvent: {}
+[14.368712] (-) TimerEvent: {}
+[14.382194] (tester_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtester_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[14.468919] (-) TimerEvent: {}
+[14.569478] (-) TimerEvent: {}
+[14.670041] (-) TimerEvent: {}
+[14.770626] (-) TimerEvent: {}
+[14.863914] (tester_interfaces) StdoutLine: {'line': b'[ 20%] Built target tester_interfaces__rosidl_generator_c\n'}
+[14.871206] (-) TimerEvent: {}
+[14.895603] (tester_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.896140] (tester_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.896592] (tester_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.897199] (tester_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.897446] (tester_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.898543] (tester_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.971413] (-) TimerEvent: {}
+[15.071952] (-) TimerEvent: {}
+[15.172624] (-) TimerEvent: {}
+[15.273421] (-) TimerEvent: {}
+[15.374001] (-) TimerEvent: {}
+[15.474491] (-) TimerEvent: {}
+[15.483084] (tester_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tester_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tester_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[15.496783] (tester_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/tester_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tester_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[15.529347] (tester_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/tester_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tester_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[15.574748] (-) TimerEvent: {}
+[15.577868] (tester_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tester_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tester_interfaces/msg/detail/hardware_status__type_support_c.cpp.o\x1b[0m\n'}
+[15.579514] (tester_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/tester_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tester_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[15.600417] (tester_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libtester_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[15.604260] (tester_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/tester_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tester_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[15.675017] (-) TimerEvent: {}
+[15.681287] (tester_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libtester_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.775253] (-) TimerEvent: {}
+[15.875950] (-) TimerEvent: {}
+[15.976597] (-) TimerEvent: {}
+[16.072395] (tester_interfaces) StdoutLine: {'line': b'[ 61%] Built target tester_interfaces__rosidl_typesupport_c\n'}
+[16.076809] (-) TimerEvent: {}
+[16.110745] (tester_interfaces) StdoutLine: {'line': b'[ 61%] Built target tester_interfaces__rosidl_typesupport_introspection_c\n'}
+[16.177019] (-) TimerEvent: {}
+[16.277676] (-) TimerEvent: {}
+[16.365386] (tester_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtester_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[16.377870] (-) TimerEvent: {}
+[16.398174] (tester_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libtester_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.478057] (-) TimerEvent: {}
+[16.578615] (-) TimerEvent: {}
+[16.679267] (-) TimerEvent: {}
+[16.772878] (tester_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtester_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.779450] (-) TimerEvent: {}
+[16.780758] (tester_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libtester_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[16.783636] (tester_interfaces) StdoutLine: {'line': b'[ 73%] Built target tester_interfaces__rosidl_typesupport_cpp\n'}
+[16.840398] (tester_interfaces) StdoutLine: {'line': b'[ 73%] Built target tester_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[16.879621] (-) TimerEvent: {}
+[16.980104] (-) TimerEvent: {}
+[17.080707] (-) TimerEvent: {}
+[17.149889] (tester_interfaces) StdoutLine: {'line': b'[ 73%] Built target tester_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[17.152365] (tester_interfaces) StdoutLine: {'line': b'[ 73%] Built target tester_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[17.180968] (-) TimerEvent: {}
+[17.201123] (tester_interfaces) StdoutLine: {'line': b'[ 73%] Built target tester_interfaces\n'}
+[17.259604] (tester_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[17.281258] (-) TimerEvent: {}
+[17.382237] (-) TimerEvent: {}
+[17.483200] (-) TimerEvent: {}
+[17.583844] (-) TimerEvent: {}
+[17.684721] (-) TimerEvent: {}
+[17.785379] (-) TimerEvent: {}
+[17.875061] (tester_interfaces) StdoutLine: {'line': b'[ 76%] Built target tester_interfaces__py\n'}
+[17.885653] (-) TimerEvent: {}
+[17.920805] (tester_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/tester_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tester_interfaces/msg/_hardware_status_s.c.o\x1b[0m\n'}
+[17.985876] (-) TimerEvent: {}
+[18.086693] (-) TimerEvent: {}
+[18.187360] (-) TimerEvent: {}
+[18.288012] (-) TimerEvent: {}
+[18.302574] (tester_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libtester_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[18.388254] (-) TimerEvent: {}
+[18.488877] (-) TimerEvent: {}
+[18.589425] (-) TimerEvent: {}
+[18.690154] (-) TimerEvent: {}
+[18.790726] (-) TimerEvent: {}
+[18.830477] (tester_interfaces) StdoutLine: {'line': b'[ 82%] Built target tester_interfaces__rosidl_generator_py\n'}
+[18.871990] (tester_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tester_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tester_interfaces/_tester_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.872620] (tester_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/tester_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tester_interfaces/_tester_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.873038] (tester_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tester_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tester_interfaces/_tester_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.890929] (-) TimerEvent: {}
+[18.991488] (-) TimerEvent: {}
+[19.091300] (tester_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tester_interfaces/tester_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.091634] (-) TimerEvent: {}
+[19.126835] (tester_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tester_interfaces/tester_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[19.133049] (tester_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tester_interfaces/tester_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.191889] (-) TimerEvent: {}
+[19.292470] (-) TimerEvent: {}
+[19.393183] (-) TimerEvent: {}
+[19.440572] (tester_interfaces) StdoutLine: {'line': b'[100%] Built target tester_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[19.441036] (tester_interfaces) StdoutLine: {'line': b'[100%] Built target tester_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[19.442650] (tester_interfaces) StdoutLine: {'line': b'[100%] Built target tester_interfaces_s__rosidl_typesupport_c\n'}
+[19.467444] (tester_interfaces) CommandEnded: {'returncode': 0}
+[19.469258] (tester_interfaces) JobProgress: {'identifier': 'tester_interfaces', 'progress': 'install'}
+[19.485079] (tester_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces'], 'cwd': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roboff', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/roboff', 'OLDPWD': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roboff', 'NAME': 'LAPTOP-UBRJU7HF', 'WSL_INTEROP': '/run/WSL/356_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/robof/Documents/Varsity Work/COS326/MongoDB/mongosh-2.0.1-win32-x64/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/robof/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/robof/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/robof/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/robof/AppData/Local/GitHubDesktop/bin:/mnt/c/src/flutter/bin:/mnt/c/texlive/2023/bin/windows:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Users/robof/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/robof/AppData/Roaming/npm:/mnt/c/Users/robof/AppData/Local/gitkraken/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[19.493330] (-) TimerEvent: {}
+[19.500019] (tester_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.501244] (tester_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.503386] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/ament_index/resource_index/rosidl_interfaces/tester_interfaces\n'}
+[19.520552] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/msg/HardwareStatus.json\n'}
+[19.539588] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/detail/hardware_status__functions.h\n'}
+[19.555188] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/detail/hardware_status__struct.h\n'}
+[19.571186] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[19.588727] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/hardware_status.h\n'}
+[19.593515] (-) TimerEvent: {}
+[19.605228] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.621801] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/environment/library_path.sh\n'}
+[19.638313] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/environment/library_path.dsv\n'}
+[19.655176] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[19.671093] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.688825] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[19.693786] (-) TimerEvent: {}
+[19.704886] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.723195] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[19.740237] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[19.756928] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[19.772839] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/detail/hardware_status__type_support.hpp\n'}
+[19.790040] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/hardware_status.hpp\n'}
+[19.793958] (-) TimerEvent: {}
+[19.807041] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[19.827548] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.846352] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.864701] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/include/tester_interfaces/tester_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.882195] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/environment/pythonpath.sh\n'}
+[19.894153] (-) TimerEvent: {}
+[19.903635] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/environment/pythonpath.dsv\n'}
+[19.925467] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[19.942803] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[19.959660] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[19.977357] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[19.994362] (-) TimerEvent: {}
+[19.996091] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/__init__.py\n'}
+[20.012534] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/_tester_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[20.029017] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/_tester_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.045852] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/_tester_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.062606] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/msg/__init__.py\n'}
+[20.079021] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/msg/_hardware_status.py\n'}
+[20.094611] (-) TimerEvent: {}
+[20.095139] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/msg/_hardware_status_s.c\n'}
+[20.112651] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/tester_interfaces_s__rosidl_typesupport_c.so\n'}
+[20.128864] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/tester_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[20.146178] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/tester_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[20.163228] (tester_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/tester_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[20.164237] (tester_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/tester_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[20.165051] (tester_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/tester_interfaces_s__rosidl_typesupport_c.so\n'}
+[20.165467] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/msg/HardwareStatus.idl\n'}
+[20.182463] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/msg/HardwareStatus.msg\n'}
+[20.194833] (-) TimerEvent: {}
+[20.199916] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/ament_index/resource_index/package_run_dependencies/tester_interfaces\n'}
+[20.217128] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/ament_index/resource_index/parent_prefix_path/tester_interfaces\n'}
+[20.234876] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/environment/ament_prefix_path.sh\n'}
+[20.251221] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/environment/ament_prefix_path.dsv\n'}
+[20.267841] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/environment/path.sh\n'}
+[20.284997] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/environment/path.dsv\n'}
+[20.295019] (-) TimerEvent: {}
+[20.301726] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/local_setup.bash\n'}
+[20.318384] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/local_setup.sh\n'}
+[20.335966] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/local_setup.zsh\n'}
+[20.352553] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/local_setup.dsv\n'}
+[20.372308] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/package.dsv\n'}
+[20.392480] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/ament_index/resource_index/packages/tester_interfaces\n'}
+[20.395225] (-) TimerEvent: {}
+[20.424432] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[20.444476] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.463162] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.481319] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.495450] (-) TimerEvent: {}
+[20.497514] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.513350] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.531058] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.548261] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/tester_interfacesConfig.cmake\n'}
+[20.564273] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/tester_interfacesConfig-version.cmake\n'}
+[20.579433] (tester_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/package.xml\n'}
+[20.594575] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_generator_c.so\n'}
+[20.595493] (tester_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_generator_c.so" to ""\n'}
+[20.595801] (-) TimerEvent: {}
+[20.596036] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[20.596679] (tester_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.597015] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[20.597923] (tester_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.598203] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_c.so\n'}
+[20.598781] (tester_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[20.599072] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.599814] (tester_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.600073] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[20.600787] (tester_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.601058] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_cpp.so\n'}
+[20.601726] (tester_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[20.677601] (tester_interfaces) StdoutLine: {'line': b"Listing '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces'...\n"}
+[20.678010] (tester_interfaces) StdoutLine: {'line': b"Compiling '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/__init__.py'...\n"}
+[20.678167] (tester_interfaces) StdoutLine: {'line': b"Listing '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/msg'...\n"}
+[20.678298] (tester_interfaces) StdoutLine: {'line': b"Compiling '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/msg/__init__.py'...\n"}
+[20.678426] (tester_interfaces) StdoutLine: {'line': b"Compiling '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages/tester_interfaces/msg/_hardware_status.py'...\n"}
+[20.687387] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_generator_py.so\n'}
+[20.688292] (tester_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/libtester_interfaces__rosidl_generator_py.so" to ""\n'}
+[20.688663] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/export_tester_interfaces__rosidl_generator_cExport.cmake\n'}
+[20.689064] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/export_tester_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.689780] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/export_tester_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.689984] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/export_tester_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.690728] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/tester_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.690956] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/tester_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.691502] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/tester_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[20.691887] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/tester_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.692515] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/export_tester_interfaces__rosidl_generator_cppExport.cmake\n'}
+[20.692841] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/export_tester_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.693515] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/export_tester_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.693774] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/tester_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.694049] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/tester_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.694535] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/tester_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[20.694973] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/tester_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.695451] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/export_tester_interfaces__rosidl_generator_pyExport.cmake\n'}
+[20.695847] (-) TimerEvent: {}
+[20.696052] (tester_interfaces) StdoutLine: {'line': b'-- Installing: /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/share/tester_interfaces/cmake/export_tester_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.700363] (tester_interfaces) CommandEnded: {'returncode': 0}
+[20.747306] (tester_interfaces) JobEnded: {'identifier': 'tester_interfaces', 'rc': 0}
+[20.748083] (tester_pkg) JobStarted: {'identifier': 'tester_pkg'}
+[20.796077] (-) TimerEvent: {}
+[20.896620] (-) TimerEvent: {}
+[20.997077] (-) TimerEvent: {}
+[21.097656] (-) TimerEvent: {}
+[21.198223] (-) TimerEvent: {}
+[21.298968] (-) TimerEvent: {}
+[21.399596] (-) TimerEvent: {}
+[21.500241] (-) TimerEvent: {}
+[21.600811] (-) TimerEvent: {}
+[21.701359] (-) TimerEvent: {}
+[21.801986] (-) TimerEvent: {}
+[21.902462] (-) TimerEvent: {}
+[22.002876] (-) TimerEvent: {}
+[22.103397] (-) TimerEvent: {}
+[22.204035] (-) TimerEvent: {}
+[22.304624] (-) TimerEvent: {}
+[22.405141] (-) TimerEvent: {}
+[22.505656] (-) TimerEvent: {}
+[22.606153] (-) TimerEvent: {}
+[22.706619] (-) TimerEvent: {}
+[22.807169] (-) TimerEvent: {}
+[22.907723] (-) TimerEvent: {}
+[23.008211] (-) TimerEvent: {}
+[23.108732] (-) TimerEvent: {}
+[23.209316] (-) TimerEvent: {}
+[23.309843] (-) TimerEvent: {}
+[23.410514] (-) TimerEvent: {}
+[23.511049] (-) TimerEvent: {}
+[23.611553] (-) TimerEvent: {}
+[23.712001] (-) TimerEvent: {}
+[23.812455] (-) TimerEvent: {}
+[23.913139] (-) TimerEvent: {}
+[24.013627] (-) TimerEvent: {}
+[24.114242] (-) TimerEvent: {}
+[24.214669] (-) TimerEvent: {}
+[24.292838] (tester_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roboff', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/roboff', 'OLDPWD': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'roboff', 'NAME': 'LAPTOP-UBRJU7HF', 'WSL_INTEROP': '/run/WSL/356_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/robof/Documents/Varsity Work/COS326/MongoDB/mongosh-2.0.1-win32-x64/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/robof/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/robof/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/robof/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/robof/AppData/Local/GitHubDesktop/bin:/mnt/c/src/flutter/bin:/mnt/c/texlive/2023/bin/windows:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Users/robof/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/robof/AppData/Roaming/npm:/mnt/c/Users/robof/AppData/Local/gitkraken/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_pkg/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces/lib/python3.12/site-packages:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_interfaces:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/install/led_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}, 'shell': False}
+[24.314859] (-) TimerEvent: {}
+[24.415361] (-) TimerEvent: {}
+[24.515907] (-) TimerEvent: {}
+[24.616437] (-) TimerEvent: {}
+[24.716948] (-) TimerEvent: {}
+[24.817535] (-) TimerEvent: {}
+[24.917998] (-) TimerEvent: {}
+[24.951975] (tester_pkg) StdoutLine: {'line': b'running develop\n'}
+[25.018190] (-) TimerEvent: {}
+[25.118748] (-) TimerEvent: {}
+[25.219309] (-) TimerEvent: {}
+[25.319894] (-) TimerEvent: {}
+[25.420617] (-) TimerEvent: {}
+[25.458511] (tester_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)\n'}
+[25.459065] (tester_pkg) StderrLine: {'line': b'  self.local_index = Environment(self.shadow_path + sys.path)\n'}
+[25.520819] (-) TimerEvent: {}
+[25.561786] (tester_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[25.562561] (tester_pkg) StdoutLine: {'line': b'creating tester_pkg.egg-info\n'}
+[25.621127] (-) TimerEvent: {}
+[25.630047] (tester_pkg) StdoutLine: {'line': b'writing tester_pkg.egg-info/PKG-INFO\n'}
+[25.630961] (tester_pkg) StdoutLine: {'line': b'writing dependency_links to tester_pkg.egg-info/dependency_links.txt\n'}
+[25.631873] (tester_pkg) StdoutLine: {'line': b'writing entry points to tester_pkg.egg-info/entry_points.txt\n'}
+[25.632402] (tester_pkg) StdoutLine: {'line': b'writing requirements to tester_pkg.egg-info/requires.txt\n'}
+[25.632852] (tester_pkg) StdoutLine: {'line': b'writing top-level names to tester_pkg.egg-info/top_level.txt\n'}
+[25.633362] (tester_pkg) StdoutLine: {'line': b"writing manifest file 'tester_pkg.egg-info/SOURCES.txt'\n"}
+[25.721286] (-) TimerEvent: {}
+[25.785464] (tester_pkg) StdoutLine: {'line': b"reading manifest file 'tester_pkg.egg-info/SOURCES.txt'\n"}
+[25.787325] (tester_pkg) StdoutLine: {'line': b"writing manifest file 'tester_pkg.egg-info/SOURCES.txt'\n"}
+[25.821529] (-) TimerEvent: {}
+[25.877518] (tester_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[25.878104] (tester_pkg) StdoutLine: {'line': b'Creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/python3.12/site-packages/tester-pkg.egg-link (link to .)\n'}
+[25.879982] (tester_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/tester_pkg\n'}
+[25.880886] (tester_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/tester_pkg\n'}
+[25.881454] (tester_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/tester_pkg\n'}
+[25.882070] (tester_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/tester_pkg\n'}
+[25.882526] (tester_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/tester_pkg\n'}
+[25.883128] (tester_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/tester_pkg\n'}
+[25.883621] (tester_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/tester_pkg\n'}
+[25.884148] (tester_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/tester_pkg\n'}
+[25.884910] (tester_pkg) StdoutLine: {'line': b'Installing tester_node script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/lib/tester_pkg\n'}
+[25.885362] (tester_pkg) StdoutLine: {'line': b'\n'}
+[25.885670] (tester_pkg) StdoutLine: {'line': b'Installed /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg\n'}
+[25.886189] (tester_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[25.886593] (tester_pkg) StdoutLine: {'line': b'creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/share/ament_index\n'}
+[25.887227] (tester_pkg) StdoutLine: {'line': b'creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/share/ament_index/resource_index\n'}
+[25.888231] (tester_pkg) StdoutLine: {'line': b'creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/share/ament_index/resource_index/packages\n'}
+[25.888543] (tester_pkg) StdoutLine: {'line': b'symbolically linking /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg/resource/tester_pkg -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/share/ament_index/resource_index/packages\n'}
+[25.888719] (tester_pkg) StdoutLine: {'line': b'symbolically linking /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_pkg/package.xml -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/install/tester_pkg/share/tester_pkg\n'}
+[25.921742] (-) TimerEvent: {}
+[25.975429] (tester_pkg) CommandEnded: {'returncode': 0}
+[25.998970] (tester_pkg) JobEnded: {'identifier': 'tester_pkg', 'rc': 0}
+[26.002436] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+{
+  "package_name": "led_interfaces",
+  "output_dir": "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces/rosidl_generator_type_description/led_interfaces",
+  "idl_tuples": [
+    "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces/rosidl_adapter/led_interfaces:msg/LedPanelState.idl",
+    "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/LEDactivity/build/led_interfaces/rosidl_adapter/led_interfaces:srv/SetLED.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

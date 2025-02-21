@@ -1,0 +1,7 @@
+{
+  "package_name": "tester_interfaces",
+  "output_dir": "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces/rosidl_generator_type_description/tester_interfaces",
+  "idl_tuples": [
+    "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces/rosidl_adapter/tester_interfaces:msg/HardwareStatus.idl"
+  ]
+}

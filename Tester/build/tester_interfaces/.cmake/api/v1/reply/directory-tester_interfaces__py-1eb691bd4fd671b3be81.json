@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tester_interfaces__py",
+		"source" : "/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/Tester/build/tester_interfaces/tester_interfaces__py"
+	}
+}
