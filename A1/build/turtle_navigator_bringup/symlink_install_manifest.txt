@@ -1,0 +1,16 @@
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/launch/turtle_navigator_app.launch.xml
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/ament_index/resource_index/package_run_dependencies/turtle_navigator_bringup
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/ament_index/resource_index/parent_prefix_path/turtle_navigator_bringup
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/environment/ament_prefix_path.sh
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/environment/ament_prefix_path.dsv
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/environment/path.sh
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/environment/path.dsv
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/local_setup.bash
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/local_setup.sh
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/local_setup.zsh
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/local_setup.dsv
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/package.dsv
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/ament_index/resource_index/packages/turtle_navigator_bringup
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/cmake/turtle_navigator_bringupConfig.cmake
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/cmake/turtle_navigator_bringupConfig-version.cmake
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtle_navigator_bringup/share/turtle_navigator_bringup/package.xml

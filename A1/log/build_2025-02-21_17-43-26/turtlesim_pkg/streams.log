@@ -1,0 +1,26 @@
+[0.927s] Invoking command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg': PYTHONPATH=/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/build --no-deps symlink_data
+[1.200s] running develop
+[1.377s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[1.377s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.406s] running egg_info
+[1.406s] creating turtlesim_pkg.egg-info
+[1.422s] writing turtlesim_pkg.egg-info/PKG-INFO
+[1.423s] writing dependency_links to turtlesim_pkg.egg-info/dependency_links.txt
+[1.423s] writing entry points to turtlesim_pkg.egg-info/entry_points.txt
+[1.423s] writing requirements to turtlesim_pkg.egg-info/requires.txt
+[1.423s] writing top-level names to turtlesim_pkg.egg-info/top_level.txt
+[1.423s] writing manifest file 'turtlesim_pkg.egg-info/SOURCES.txt'
+[1.457s] reading manifest file 'turtlesim_pkg.egg-info/SOURCES.txt'
+[1.457s] writing manifest file 'turtlesim_pkg.egg-info/SOURCES.txt'
+[1.474s] running build_ext
+[1.475s] Creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages/turtlesim-pkg.egg-link (link to .)
+[1.475s] Installing turtle_navigator script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/turtlesim_pkg
+[1.476s] 
+[1.476s] Installed /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg
+[1.476s] running symlink_data
+[1.476s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index
+[1.476s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index/resource_index
+[1.476s] creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index/resource_index/packages
+[1.476s] symbolically linking /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/resource/turtlesim_pkg -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index/resource_index/packages
+[1.477s] symbolically linking /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/package.xml -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/turtlesim_pkg
+[1.507s] Invoked command in '/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg' returned '0': PYTHONPATH=/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/build --no-deps symlink_data

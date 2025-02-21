@@ -1,0 +1,90 @@
+ros2 run turtlesim_pkg turtle_navigator
+Welcome to the Turtle Navigator!
+Menu:
+m: Move the turtle
+c = Clear the screen
+h = Home position
+q = Quit the program
+Enter a command: m
+Enter target X coordinate (1-10): 10
+Enter target Y coordinate (1-10): 10
+[INFO] [1740151954.177277309] [turtle_navigator]: Navigating to (10.0, 10)...
+[INFO] [1740151954.177695093] [turtle_navigator]: Waiting for pose information...
+[INFO] [1740151965.725947534] [turtle_navigator]: Target reached!
+Menu:
+m: Move the turtle
+c = Clear the screen
+h = Home position
+q = Quit the program
+Enter a command: m
+Enter target X coordinate (1-10): 10
+Enter target Y coordinate (1-10): 0
+[INFO] [1740151972.508062898] [turtle_navigator]: Navigating to (10.0, 0)...
+[INFO] [1740151986.366728065] [turtle_navigator]: Target reached!
+Menu:
+m: Move the turtle
+c = Clear the screen
+h = Home position
+q = Quit the program
+Enter a command: m
+Enter target X coordinate (1-10): 0
+Enter target Y coordinate (1-10): 10
+[INFO] [1740151995.693845323] [turtle_navigator]: Navigating to (0.0, 10)...
+[INFO] [1740152015.292490225] [turtle_navigator]: Target reached!
+Menu:
+m: Move the turtle
+c = Clear the screen
+h = Home position
+q = Quit the program
+Enter a command: m
+Enter target X coordinate (1-10): 0
+Enter target Y coordinate (1-10): 0
+[INFO] [1740152020.676284764] [turtle_navigator]: Navigating to (0.0, 0)...
+[INFO] [1740152036.113394449] [turtle_navigator]: Target reached!
+Menu:
+m: Move the turtle
+c = Clear the screen
+h = Home position
+q = Quit the program
+Enter a command: m
+Enter target X coordinate (1-10): 5.5
+Enter target Y coordinate (1-10): 5.5
+[INFO] [1740152044.492049169] [turtle_navigator]: Navigating to (5.5, 5.5)...
+[INFO] [1740152056.129591363] [turtle_navigator]: Target reached!
+Menu:
+m: Move the turtle
+c = Clear the screen
+h = Home position
+q = Quit the program
+Enter a command: c
+[INFO] [1740152059.239152418] [turtle_navigator]: Screen cleared!
+Menu:
+m: Move the turtle
+c = Clear the screen
+h = Home position
+q = Quit the program
+Enter a command: m
+Enter target X coordinate (1-10): 10
+Enter target Y coordinate (1-10): 10
+[INFO] [1740152066.079306292] [turtle_navigator]: Navigating to (10.0, 10)...
+[INFO] [1740152075.559650096] [turtle_navigator]: Target reached!
+Menu:
+m: Move the turtle
+c = Clear the screen
+h = Home position
+q = Quit the program
+Enter a command: h
+[INFO] [1740152078.969545429] [turtle_navigator]: Teleported to home position!
+Menu:
+m: Move the turtle
+c = Clear the screen
+h = Home position
+q = Quit the program
+Enter a command: c
+[INFO] [1740152080.826410238] [turtle_navigator]: Screen cleared!
+Menu:
+m: Move the turtle
+c = Clear the screen
+h = Home position
+q = Quit the program
+Enter a command: q

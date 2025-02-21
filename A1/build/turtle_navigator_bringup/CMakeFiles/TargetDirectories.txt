@@ -1,0 +1,9 @@
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtle_navigator_bringup/CMakeFiles/uninstall.dir
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtle_navigator_bringup/CMakeFiles/turtle_navigator_bringup_uninstall.dir
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtle_navigator_bringup/CMakeFiles/test.dir
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtle_navigator_bringup/CMakeFiles/edit_cache.dir
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtle_navigator_bringup/CMakeFiles/rebuild_cache.dir
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtle_navigator_bringup/CMakeFiles/list_install_components.dir
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtle_navigator_bringup/CMakeFiles/install.dir
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtle_navigator_bringup/CMakeFiles/install/local.dir
+/home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtle_navigator_bringup/CMakeFiles/install/strip.dir

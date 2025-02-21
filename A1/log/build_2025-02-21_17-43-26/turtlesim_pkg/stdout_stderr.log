@@ -1,0 +1,24 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+creating turtlesim_pkg.egg-info
+writing turtlesim_pkg.egg-info/PKG-INFO
+writing dependency_links to turtlesim_pkg.egg-info/dependency_links.txt
+writing entry points to turtlesim_pkg.egg-info/entry_points.txt
+writing requirements to turtlesim_pkg.egg-info/requires.txt
+writing top-level names to turtlesim_pkg.egg-info/top_level.txt
+writing manifest file 'turtlesim_pkg.egg-info/SOURCES.txt'
+reading manifest file 'turtlesim_pkg.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/python3.12/site-packages/turtlesim-pkg.egg-link (link to .)
+Installing turtle_navigator script to /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/lib/turtlesim_pkg
+
+Installed /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg
+running symlink_data
+creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index
+creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index/resource_index
+creating /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/resource/turtlesim_pkg -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/build/turtlesim_pkg/package.xml -> /home/roboff/documents/varsityWork/Stellenbosch/Robotics/Assignments/A1/install/turtlesim_pkg/share/turtlesim_pkg

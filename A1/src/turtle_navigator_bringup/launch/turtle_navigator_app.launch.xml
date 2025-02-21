@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="turtlesim_pkg" exec="turtle_navigator"/>
+  <node pkg="turtlesim" exec="turtlesim_node"/>
+</launch>
